@@ -1,0 +1,22 @@
+{
+  "name": "reception-signage",
+  "version": "1.0.0",
+  "description": "Reception TV signage — video loop with scheduled image/PDF covers, LAN admin page",
+  "main": "electron/main.js",
+  "private": true,
+  "scripts": {
+    "start": "electron .",
+    "test": "vitest run"
+  },
+  "license": "UNLICENSED",
+  "dependencies": {
+    "express": "^5.2.1",
+    "multer": "^2.2.0",
+    "pdf-to-png-converter": "^4.1.1"
+  },
+  "devDependencies": {
+    "electron": "^43.2.0",
+    "supertest": "^7.2.2",
+    "vitest": "^4.1.10"
+  }
+}
